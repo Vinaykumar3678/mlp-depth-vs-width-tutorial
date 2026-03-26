@@ -13,6 +13,7 @@ mlp-depth-vs-width-tutorial/
 - MLP_Depth_vs_Width_Analysis_24109101.ipynb  
 - MLP_Depth_vs_Width_Tutorial_24109101.pdf  
 - README.md  
+- requirements.txt  
 - LICENSE  
 
 ## Dataset
