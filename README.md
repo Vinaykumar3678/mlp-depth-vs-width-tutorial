@@ -16,7 +16,7 @@ mlp-depth-vs-width-tutorial/
 - LICENSE  
 
 ## Dataset
-Fashion-MNIST (60,000 training, 10,000 test images, 10 classes, 28×28 grayscale).
+Fashion-MNIST (60,000 training images, 10,000 test images, 10 classes, 28×28 grayscale).
 
 ## Methodology
 - Depth: 1, 3, 5 layers (width = 128)  
@@ -28,27 +28,37 @@ Fashion-MNIST (60,000 training, 10,000 test images, 10 classes, 28×28 grayscale
 ## Results
 - Width improves performance more than depth  
 - Best model: Width-512  
-- Wider models achieve better accuracy and generalisation  
+- Wider models achieve higher accuracy and better generalisation  
 
 ## Visualisations
 - Depth accuracy  
 - Width accuracy  
-- Final accuracy  
+- Final test accuracy  
 - Generalisation gap  
 - Training time  
 - Confusion matrix  
 - Training vs validation accuracy  
 
-## How to Run
-pip install tensorflow numpy pandas matplotlib scikit-learn  
-Run the notebook file step by step.
+## Requirements
+Install dependencies:
+pip install tensorflow numpy pandas matplotlib scikit-learn
 
-## Ethics & Accessibility
-- Dataset bias and computational cost considered  
-- Clear graphs and structured layout used  
+## How to Run
+Open the notebook and run all cells:
+MLP_Depth_vs_Width_Analysis_24109101.ipynb
+
+## Ethical Considerations
+- Dataset bias may limit real-world generalisation  
+- Larger models require more computational resources  
+- Misclassification may impact real-world applications  
+
+## Accessibility
+- Clear graphs with labelled axes and legends  
+- Structured and readable format  
+- Simple and consistent presentation  
 
 ## Author
 Vinay Kumar Pasupuleti (24109101)
 
 ## License
-MIT License
+This project is licensed under the MIT License.
